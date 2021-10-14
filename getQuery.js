@@ -1,7 +1,7 @@
 function execute() {
     var yoga = document.sampleForm.menu[0];
-    var study = document.sampleForm.menu[1];
-    var meal = document.sampleForm.menu[2];
+    var kintore = document.sampleForm.menu[1];
+    var bgm = document.sampleForm.menu[2];
     var result = document.getElementById("result");
     result.innerHTML = "";
     var none = true;
@@ -16,13 +16,13 @@ function execute() {
         none = false;
     }
  
-    if(study.checked) {
-        result.innerHTML += study.value + "が選択されています。";
+    if(kintore.checked) {
+        result.innerHTML += kintore.value + "が選択されています。";
         none = false;
     }
  
-    if(meal.checked) {
-        result.innerHTML += meal.value + "が選択されています。";
+    if(bgm.checked) {
+        result.innerHTML += bgm.value + "が選択されています。";
         none = false;
     }
  
